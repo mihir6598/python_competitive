@@ -32,7 +32,7 @@ def findSubString(string, pat):
     # Start traversing the string
     count = 0  # count of characters
     for j in range(0, len1):
- 
+  
         # count occurrence of characters of string
         hash_str[ord(string[j])] += 1
  
