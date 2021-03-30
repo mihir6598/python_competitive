@@ -29,13 +29,6 @@ def leaf(root):
 def dfs(tree):
     return dfs(tree.left)+dfs(tree.right)+[tree.val] if tree else []
 
-def test(root):
-    if not root:
-        return
-    print (root.val)
-    test(root.left)
-    test(root.right)
-
 root = TreeNode(20)
 root.left = TreeNode(8)
 root.right = TreeNode(22)
@@ -45,8 +38,7 @@ root.left.right.left = TreeNode(10)
 root.left.right.right = TreeNode(14)
 root.right.right = TreeNode(25)
 # print (dfs(root))
-# print (root.val)
-# main_left(root.left)
-# main_right(root.right)
-test(root)
+print (root.val)
+main_left(root.left)
+main_right(root.right)
 # solve(root,root.left,2)
