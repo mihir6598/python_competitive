@@ -88,7 +88,7 @@ def sol(arr):
             ans = arr[0]
         else:
             ans = (arr[0]+arr[1])/2
-    print (ans)
+        print (ans)
         # print (arr_left)
         # print (arr_right)
 
