@@ -55,7 +55,9 @@ if __name__ == "__main__":
     head = ListNode(9)
     head.next = ListNode(9)
     head.next.next = ListNode(9)
-    head2 = None
+    head2 = ListNode(9)
+    head2.next = ListNode(9)
+    head2.next.next = ListNode(9)
     # printList(head)
     # printList(head2)
     solve(head,head2)

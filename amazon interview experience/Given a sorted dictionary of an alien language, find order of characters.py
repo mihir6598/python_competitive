@@ -37,7 +37,7 @@ def solve(arr):
         for j in range((min(len(word1),len(word2)))):
             if word2[j] != word1[j]:
                 language.add(word1[j],word2[j])
-    return language.topological()
+    return   language.topological()
     
         
 

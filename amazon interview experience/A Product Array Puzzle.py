@@ -1,4 +1,8 @@
 # https://www.geeksforgeeks.org/a-product-array-puzzle-set-3/
+
+# not solved 
+# use log
+
 def solve(arr):
     left = [1]*len(arr)
     for i in range(len(arr)-1):
