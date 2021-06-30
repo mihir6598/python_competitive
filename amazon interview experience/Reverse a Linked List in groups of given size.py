@@ -1,5 +1,5 @@
 from typing import List
-
+# https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
 
 class ListNode:
     def __init__(self,val):
