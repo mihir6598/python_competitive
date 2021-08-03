@@ -22,6 +22,7 @@ def KMPSearch(pat,txt):
     j = 0
     i = 0
     coumputeLPS(pat,M,lps)
+    print (lps)
     
     while i<N:
         print (i,j)
@@ -41,5 +42,5 @@ def KMPSearch(pat,txt):
 
 if __name__ == "__main__":
     txt = "ABABDABACDABABCABAB"
-    pat = "AB"
+    pat = "ABABCAB"
     KMPSearch(pat, txt)

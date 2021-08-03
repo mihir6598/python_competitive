@@ -46,7 +46,7 @@ def findNext(number,n):
 
 
 # Driver Program to test above function
-digits = "534976"		
+digits = "534978"		
 
 # converting into integer array,
 # number becomes [5,3,4,9,7,6]

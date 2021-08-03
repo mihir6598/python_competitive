@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
+# check upper link. This code is probabely wrong
+
 def search(arr,l,r,n):
     if l<=r:
         
